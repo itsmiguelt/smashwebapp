@@ -21,10 +21,10 @@ font-family: 'Rubik', sans-serif;
   background: linear-gradient(69deg,#e8b71d, #e3e81d, #1de840, #1ddde8);
   background-size: 1800% 1800%;
   
-  -webkit-animation: rainbow 600s ease infinite;
-  -z-animation: rainbow 600s ease infinite;
-  -o-animation: rainbow 600s ease infinite;
-    animation: rainbow 600s ease infinite;}
+  -webkit-animation: rainbow 60s ease infinite;
+  -z-animation: rainbow 60s ease infinite;
+  -o-animation: rainbow 60s ease infinite;
+    animation: rainbow 60s ease infinite;}
   
   @-webkit-keyframes rainbow {
       0%{background-position:0% 82%}
