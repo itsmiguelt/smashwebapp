@@ -3,9 +3,10 @@ body {
 }
 
 h1 {
-    font-family: 'Dela Gothic One', cursive; 
+    font-family: 'Dela Gothic One', cursive;
+    text-align: center; 
 }
 
 p {
-
+text-align: center;
 }
