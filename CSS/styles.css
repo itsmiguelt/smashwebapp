@@ -1,12 +1,39 @@
 
+
 h1 {
-    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Futura PT';
     text-align: center; 
 }
 
 p {
 text-align: center;
 font-family: 'Rubik', sans-serif;
+}
+
+input {
+font-family: 'Futura PT', bold;
+}
+
+input[type=text] {
+font-family: 'Helvetica';
+padding: 10px;
+margin: 8px;
+border: 3px solid #000;
+box-shadow: 0 0 15px 4px rgba(0,0,0,0.2);
+border-radius:20px;
+}
+
+input[id='char'] {
+padding: 15px;
+font-size: 30px;
+border-radius: 40px;
+}
+
+input[type=submit] {
+margin: 40px;
+padding: 15px;
+background-color:#3F51B5;
+color:#fff
 }
 
 /*Animation*/
