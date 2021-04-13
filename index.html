@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>SSBU Calculator</title>
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/SmashBall.svg/1024px-SmashBall.svg.png" type="image/x-icon">
         <!--Our Own Scripts-->
         <link rel="stylesheet" href="CSS/styles.css">
         <script src="JS/scripts.js"></script>
@@ -14,14 +16,341 @@
     <body>
         <div class = "wrapper">
             <h1>👋 WELCOME TO THE SMASH CHARACTER TRACKER</h1>
-            <p>This right here is a tool to help us understand what character we're up to. <br>This information is valid as of Ver 11.0 and April 2021.</p>
-            <br>
+            <p>This right here is a tool to help us understand what character we're up to. <br>This information is valid as of Ver 11.0 and April 2021. <br> <br> Choose your current character:</p> <br>
             <form>
             <center>
-            <input type="text" id="char" placeholder="Current Character"> <br> <br>
+                
+            <label>
+                <input type="radio" id='1' name="char" value="1">
+                <img src="https://ssb.wiki.gallery/images/9/9e/MarioHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='2' name="char" value="2"> 
+                <img src="https://ssb.wiki.gallery/images/2/21/DonkeyKongHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='3' name="char" value="3"> 
+                <img src="https://ssb.wiki.gallery/images/2/2b/LinkHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='4' name="char" value="4">
+                <img src="https://ssb.wiki.gallery/images/d/d0/SamusHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='5' name="char" value="5"> 
+                <img src="https://ssb.wiki.gallery/images/2/24/DarkSamusHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='6' name="char" value="6"> 
+                <img src="https://ssb.wiki.gallery/images/9/93/YoshiHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='7' name="char" value="7"> 
+                <img src="https://ssb.wiki.gallery/images/1/15/KirbyHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='8' name="char" value="8"> 
+                <img src="https://ssb.wiki.gallery/images/c/c9/FoxHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='9' name="char" value="9"> 
+                <img src="https://ssb.wiki.gallery/images/5/52/PikachuHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='10' name="char" value="10"> 
+                <img src="https://ssb.wiki.gallery/images/9/9d/LuigiHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='11' name="char" value="11"> 
+                <img src="https://ssb.wiki.gallery/images/d/d5/NessHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='12' name="char" value="12"> 
+                <img src="https://ssb.wiki.gallery/images/6/6b/CaptainFalconHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='13' name="char" value="13">
+                <img src="https://ssb.wiki.gallery/images/9/90/JigglypuffHeadSSBUWebsite.png" width="48" height="48"> <br>
+            </label>
+            <label>
+                <input type="radio" id='14' name="char" value="14">
+                <img src="https://ssb.wiki.gallery/images/1/14/PeachHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='15' name="char" value="15">
+                <img src="https://ssb.wiki.gallery/images/2/2d/DaisyHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='16' name="char" value="16">
+                <img src="https://ssb.wiki.gallery/images/0/0b/BowserHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='17' name="char" value="17">
+                <img src="https://ssb.wiki.gallery/images/0/0c/IceClimbersHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='18' name="char" value="18">
+                <img src="https://ssb.wiki.gallery/images/1/14/PeachHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='19' name="char" value="19">
+                <img src="https://ssb.wiki.gallery/images/c/c8/ZeldaHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='20' name="char" value="20">
+                <img src="https://ssb.wiki.gallery/images/c/c8/DrMarioHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='21' name="char" value="21">
+                <img src="https://ssb.wiki.gallery/images/5/50/PichuHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='22' name="char" value="22">
+                <img src="https://ssb.wiki.gallery/images/6/6e/FalcoHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='23' name="char" value="23">
+                <img src="https://ssb.wiki.gallery/images/a/ae/MarthHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='24' name="char" value="24">
+                <img src="https://ssb.wiki.gallery/images/d/d8/LucinaHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='25' name="char" value="25">
+                <img src="https://ssb.wiki.gallery/images/c/c0/YoungLinkHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='26' name="char" value="26">
+                <img src="https://ssb.wiki.gallery/images/b/b6/GanondorfHeadSSBUWebsite.png" width="48" height="48"> <br>
+            </label>
+            <label>
+                <input type="radio" id='27' name="char" value="27">
+                <img src="https://ssb.wiki.gallery/images/7/7e/MewtwoHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='28' name="char" value="28">
+                <img src="https://ssb.wiki.gallery/images/2/22/RoyHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='29' name="char" value="29">
+                <img src="https://ssb.wiki.gallery/images/7/70/ChromHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='30' name="char" value="30">
+                <img src="https://ssb.wiki.gallery/images/1/15/MrGame%26WatchHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='31' name="char" value="31">
+                <img src="https://ssb.wiki.gallery/images/3/3d/MetaKnightHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='32' name="char" value="32">
+                <img src="https://ssb.wiki.gallery/images/d/d7/PitHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='33' name="char" value="33">
+                <img src="https://ssb.wiki.gallery/images/8/8b/DarkPitHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='34' name="char" value="34">
+                <img src="https://ssb.wiki.gallery/images/5/5a/ZeroSuitSamusHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='35' name="char" value="35">
+                <img src="https://ssb.wiki.gallery/images/7/7f/WarioHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='36' name="char" value="36">
+                <img src="https://ssb.wiki.gallery/images/9/9f/SnakeHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='37' name="char" value="37">
+                <img src="https://ssb.wiki.gallery/images/2/25/IkeHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='38' name="char" value="38">
+                <img src="https://ssb.wiki.gallery/images/2/2c/Pok%C3%A9monTrainerHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='39' name="char" value="39">
+                <img src="https://ssb.wiki.gallery/images/5/5d/DiddyKongHeadSSBUWebsite.png" width="48" height="48"> <br>
+            </label>
+            <label>
+                <input type="radio" id='40' name="char" value="40">
+                <img src="https://ssb.wiki.gallery/images/3/31/LucasHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='41' name="char" value="41">
+                <img src="https://ssb.wiki.gallery/images/b/b7/SonicHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='42' name="char" value="42">
+                <img src="https://ssb.wiki.gallery/images/f/fe/KingDededeHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='43' name="char" value="43">
+                <img src="https://ssb.wiki.gallery/images/9/97/OlimarHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='44' name="char" value="44">
+                <img src="https://ssb.wiki.gallery/images/2/20/LucarioHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='45' name="char" value="45">
+                <img src="https://ssb.wiki.gallery/images/b/be/ROBHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='46' name="char" value="46">
+                <img src="https://ssb.wiki.gallery/images/b/bf/ToonLinkHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='47' name="char" value="47">
+                <img src="https://ssb.wiki.gallery/images/0/06/WolfHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='48' name="char" value="48">
+                <img src="https://ssb.wiki.gallery/images/f/f9/VillagerHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='49' name="char" value="49">
+                <img src="https://ssb.wiki.gallery/images/2/26/MegaManHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='50' name="char" value="50">
+                <img src="https://ssb.wiki.gallery/images/f/fc/WiiFitTrainerHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='51' name="char" value="51">
+                <img src="https://ssb.wiki.gallery/images/6/63/RosalinaHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='52' name="char" value="52">
+                <img src="https://ssb.wiki.gallery/images/8/87/LittleMacHeadSSBUWebsite.png" width="48" height="48"> <br>
+            </label>
+            <label>
+                <input type="radio" id='53' name="char" value="53">
+                <img src="https://ssb.wiki.gallery/images/7/79/GreninjaHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='54' name="char" value="54">
+                <img src="https://ssb.wiki.gallery/images/d/d7/PalutenaHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='55' name="char" value="55">
+                <img src="https://ssb.wiki.gallery/images/3/3d/Pac-ManHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='56' name="char" value="56">
+                <img src="https://ssb.wiki.gallery/images/4/43/RobinHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='57' name="char" value="57">
+                <img src="https://ssb.wiki.gallery/images/b/bf/ShulkHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='58' name="char" value="58">
+                <img src="https://ssb.wiki.gallery/images/3/3e/BowserJrHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='59' name="char" value="59">
+                <img src="https://ssb.wiki.gallery/images/3/38/DuckHuntHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='60' name="char" value="60">
+                <img src="https://ssb.wiki.gallery/images/2/20/RyuHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='61' name="char" value="61">
+                <img src="https://ssb.wiki.gallery/images/e/ef/KenHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='62' name="char" value="62">
+                <img src="https://ssb.wiki.gallery/images/c/cb/CloudHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='63' name="char" value="63">
+                <img src="https://ssb.wiki.gallery/images/6/6a/CorrinHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='64' name="char" value="64">
+                <img src="https://ssb.wiki.gallery/images/2/27/BayonettaHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='65' name="char" value="65">
+                <img src="https://ssb.wiki.gallery/images/0/04/InklingHeadSSBUWebsite.png" width="48" height="48"> <br>
+            </label>
+            <label>
+                <input type="radio" id='66' name="char" value="66">
+                <img src="https://ssb.wiki.gallery/images/7/7c/RidleyHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='67' name="char" value="67">
+                <img src="https://ssb.wiki.gallery/images/5/52/SimonHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='68' name="char" value="68">
+                <img src="https://ssb.wiki.gallery/images/a/ab/RichterHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='69' name="char" value="69">
+                <img src="https://ssb.wiki.gallery/images/3/35/KingKRoolHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='70' name="char" value="70">
+                <img src="https://ssb.wiki.gallery/images/2/2e/IsabelleHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='71' name="char" value="71">
+                <img src="https://ssb.wiki.gallery/images/e/e3/IncineroarHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='72' name="char" value="72">
+                <img src="https://ssb.wiki.gallery/images/c/cf/PiranhaPlantHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='73' name="char" value="73">
+                <img src="https://ssb.wiki.gallery/images/6/63/JokerHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='74' name="char" value="74">
+                <img src="https://ssb.wiki.gallery/images/1/1e/HeroHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='75' name="char" value="75">
+                <img src="https://ssb.wiki.gallery/images/1/12/Banjo%26KazooieHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='76' name="char" value="76">
+                <img src="https://ssb.wiki.gallery/images/2/2e/TerryHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='77' name="char" value="77">
+                <img src="https://ssb.wiki.gallery/images/8/86/BylethHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='78' name="char" value="78">
+                <img src="https://ssb.wiki.gallery/images/f/fc/MinMinHeadSSBUWebsite.png" width="48" height="48"> <br>
+            </label>
+            <label>
+                <input type="radio" id='79' name="char" value="79">
+                <img src="https://ssb.wiki.gallery/images/4/4f/SteveHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='80' name="char" value="80">
+                <img src="https://ssb.wiki.gallery/images/6/64/SephirothHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+            <label>
+                <input type="radio" id='81' name="char" value="81">
+                <img src="https://ssb.wiki.gallery/images/7/7c/PyraHeadSSBUWebsite.png" width="48" height="48">
+            </label>
+                <br>
+                <br>
+            <p>And fill in these stats from your last game (integers only you cucks):</p>
             <input type="text" id="kills" placeholder="Kills">
-            <input type="text" id="spikes" placeholder="Deaths by Spikes"> <br>
-            <input type="submit" value="GET MY CHARACTER"> <br> <br>
+            <input type="text" id="spikes" placeholder="Deaths by Spikes">
+            <input type="submit" value="Find My Character"> <br>
+            <p>Your next character is: </p>
             
             </center>
             </form>
