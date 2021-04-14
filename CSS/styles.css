@@ -49,7 +49,7 @@ border: 3px solid #000;
 border-radius:5px;
 }
 
-/*Animation*/
+/*Animation
 .wrapper { 
     height: 100%;
     width: 100%;
@@ -86,3 +86,4 @@ border-radius:5px;
       50%{background-position:100% 19%}
       100%{background-position:0% 82%}
   }
+*/
