@@ -11,6 +11,9 @@ function myFunction() {
 //                var ans = ele[i] - 1 + kill - spike
 //                var final = characters[ans]
                     check = ele[i].value-1+(kill-spike) 
+                    if (check < 0) {
+                        check = 0
+                    }
                     document.getElementById("answer").innerHTML
                         =characters[check];
                 }
