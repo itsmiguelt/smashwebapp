@@ -1,4 +1,4 @@
-//Copied this from the internet, don't know what I'm doing...
+//"Copied this from the internet, don't know what I'm doing..."
 
 import discord
 import os
